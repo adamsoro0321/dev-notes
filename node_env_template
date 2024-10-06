@@ -1,0 +1,34 @@
+SECRET_KEY="YOURSECRETKEYGOESHERE"
+PORT="5000"
+JWT_KEY="78fdfdig@fdgf8zrd6564999ettdvize"
+COOKIE_SECRET="erefdgfgf7857fSFF"
+
+# Production environment variables
+PROD_DB_PASSWORD="pd3bcf4e787c6a9543d2619eb4958498a67dad0d40c67d48ea3b95150a1ce2aee"
+PROD_DB_PORT="5432"
+PROD_DB_HOST="cd1goc44htrmfn.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com"
+PROD_DB_USERNAME="uf77pse47kvi3v"
+PROD_DB_DATABASE="d35m3fasn63jlm"
+PROD_DB_DIALECT="postgres"
+DATABASE_URL="postgres://uf77pse47kvi3v:pd3bcf4e787c6a9543d2619eb4958498a67dad0d40c67d48ea3b95150a1ce2aee@cd1goc44htrmfn.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d35m3fasn63jlm"
+
+# Development environment variables
+DEV_DB_PASSWORD="123456"
+DEV_DB_PORT="5050"
+DEV_DB_HOST="localhost"
+DEV_DB_USERNAME="postgres"
+DEV_DB_DATABASE="baangre_soft"
+DEV_DB_DIALECT="postgres"
+
+
+#SMTP serveur 
+SMTP_HOST="smtp-relay.brevo.com"
+SMTP_PORT="587"
+SMTP_SERVICE="gmail"
+SMTP_USER="adamsoro0321@gmail.com"
+SMTP_USER_PASS="vzwk obox bcoo qija"
+
+APP_HOST="https://ancient-springs-10322-4497b0f6c866.herokuapp.com/"
+
+SUPER_ADMIN="adamsoro0321@gmail.com"
+SUPER_ADMIN_PASS="4IdtU0K1"
