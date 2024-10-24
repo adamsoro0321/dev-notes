@@ -1,1 +1,44 @@
-heroku 
+1. Commande pour créer une nouvelle application Heroku :
+   heroku create [app_name]
+
+2. Commande pour déployer une application sur Heroku :
+   git push heroku main
+
+3. Commande pour afficher les logs de l'application :
+   heroku logs --tail
+
+4. Commande pour ouvrir l'application dans un navigateur :
+   heroku open
+
+5. Commande pour ajouter un add-on (par exemple, une base de données PostgreSQL) :
+   heroku addons:create heroku-postgresql:hobby-dev
+
+6. Commande pour afficher les variables d'environnement de l'application :
+   heroku config
+
+7. Commande pour définir une variable d'environnement :
+   heroku config:set VAR_NAME=value
+
+8. Commande pour afficher les dynos en cours d'exécution (serveurs) :
+   heroku ps
+
+9. Commande pour démarrer une console interactive (bash) dans un dyno :
+   heroku run bash
+
+10. Commande pour éteindre et redémarrer dynos :
+    heroku restart
+
+11. Commande pour détruire une application :
+    heroku apps:destroy --app app_name
+
+12. Commande pour afficher l’état des déploiements :
+    heroku releases
+
+13. Commande pour revenir à une version antérieure d'une application :
+    heroku releases:rollback VERSION_NUMBER
+
+14. Commande pour éteindre dynos (stopper une application) :
+    heroku ps:scale web=0
+
+15. Commande pour exécuter une commande unique sur Heroku (exemple : exécuter une migration de base de données) :
+    heroku run rake db:migrate
